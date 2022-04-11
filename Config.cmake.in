@@ -1,0 +1,5 @@
+@PACKAGE_INIT@
+
+include("${CMAKE_CURRENT_LIST_DIR}/result_ofTargets.cmake")
+
+check_required_components(result_of)
